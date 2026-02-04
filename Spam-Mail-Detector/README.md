@@ -1,34 +1,43 @@
 # Spam Mail Detector
 
-## Objective
-The objective of this project is to classify messages as **Spam** or **Ham (Not Spam)** using machine learning and basic Natural Language Processing techniques.
+## 📌 Objective
+To build a machine learning model that classifies messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing techniques.
 
-## Dataset
-- SMS Spam Collection Dataset (UCI Repository)
-- Messages labeled as Spam or Ham
+---
 
-## Algorithm Used
-- Naive Bayes Classifier
+## 📂 Dataset
+The project uses the **SMS Spam Collection Dataset**, a public dataset from the **UCI Machine Learning Repository**.
 
-## Steps Performed
-1. Loaded the SMS spam dataset
-2. Cleaned and preprocessed text data
-3. Converted text into numerical features using TF-IDF
-4. Split data into training and testing sets
-5. Trained Naive Bayes classifier
-6. Evaluated the model using accuracy score
+Each message is labeled as:
+- Spam
+- Ham
 
-## Evaluation Metric
-- Accuracy Score
+---
 
-## Result
-The model successfully classifies spam and non-spam messages with high accuracy.
+## 🛠️ Steps Performed
+1. Loaded and explored the dataset.
+2. Preprocessed text by:
+   - Converting to lowercase
+   - Removing punctuation and stopwords
+3. Converted text into numerical features using **TF-IDF**.
+4. Split the data into training and testing sets.
+5. Trained a **Naive Bayes classifier**.
+6. Evaluated the model using accuracy, precision, recall, and F1 score.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Natural Language Processing (NLP)
+---
 
-## Conclusion
-This project demonstrates how machine learning and NLP techniques can be applied to text classification problems such as spam detection.
+## ⚙️ Algorithms Used
+- TF-IDF Vectorization
+- Multinomial Naive Bayes
+
+---
+
+## 📊 Results
+The model achieved an accuracy of approximately **96% to 97%** on the test dataset.
+
+---
+
+## 🚀 How to Run
+1. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
