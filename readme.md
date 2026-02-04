@@ -1,61 +1,65 @@
-# Qskill AI & ML Internship Projects
+# QSkill AI & Machine Learning Internship
 
-This repository contains machine learning and data science projects completed as part of the **QSkill AI & Machine Learning Internship**.
-
-The projects demonstrate the application of core machine learning concepts, data preprocessing, model training, and evaluation using Python.
+This repository contains machine learning projects developed as part of the **QSkill AI & Machine Learning Internship**.  
+The projects focus on applying core machine learning concepts such as data preprocessing, model training, and performance evaluation using Python.
 
 ---
 
 ## 📂 Projects Included
 
 ### 1️⃣ Iris Flower Classification
-- Classifies iris flowers into **Setosa, Versicolor, and Virginica**
-- Uses sepal and petal measurements
-- Implements supervised learning using **K-Nearest Neighbors (KNN)**
+A supervised machine learning project that classifies iris flowers into three species using flower measurements.
+
+- Classes: Setosa, Versicolor, Virginica  
+- Algorithm used: K-Nearest Neighbors (KNN)  
+- Dataset: Iris dataset (scikit-learn / UCI)
 
 📁 Folder: `Iris-Flower-Classification/`
 
 ---
 
 ### 2️⃣ Spam Mail Detector
-- Classifies messages as **Spam** or **Ham**
-- Uses **Natural Language Processing (NLP)**
-- Feature extraction using **TF-IDF**
-- Model trained using **Naive Bayes**
+A Natural Language Processing (NLP) project that classifies messages as spam or non-spam (ham).
+
+- Text preprocessing and feature extraction  
+- TF-IDF for vectorization  
+- Naive Bayes classifier  
+- Dataset: SMS Spam Collection (UCI)
 
 📁 Folder: `Spam-Mail-Detector/`
 
 ---
 
 ## ⚙️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- NLTK
-- Matplotlib
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- NLTK  
+- Matplotlib  
 
 ---
 
 ## 🧠 Skills Gained
 - Supervised Machine Learning
-- Text Preprocessing & NLP
-- Feature Engineering
+- Data Preprocessing
+- Feature Extraction
+- Natural Language Processing
 - Model Evaluation
-- Git & GitHub Project Management
+- Git & GitHub usage
 
 ---
 
-## 📌 How to Use
+## 🚀 How to Use
 Each project folder contains:
 - Source code
-- Dataset (or dataset loading instructions)
-- README with detailed explanation
-- Requirements file (if needed)
+- Dataset or dataset loading instructions
+- Project-specific README
+- Requirements file
 
 Navigate into a project folder to run it individually.
 
 ---
 
 ## 👨‍💻 Author
-PRATHAMESH DIKHOLKAR
+**PRATHAMESH DIKHOLKAR**
